@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="gdufe"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="net.peacesky.iahau.model.LinkNode"></mapping>
+        <mapping class="net.peacesky.iahau.model.Course"></mapping>
+        <mapping class="net.peacesky.iahau.model.StudentInfo"></mapping>
+        <mapping class="net.peacesky.iahau.model.REResult"></mapping>
+        <mapping class="net.peacesky.iahau.model.Grade"></mapping>
+    </list>
+</litepal>

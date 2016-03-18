@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">iAHAU</string>
+    <string name="title_activity_login">安农助手</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello Test!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_changeLogin">切换账号</string>
+    <string name="action_login"> 点击登录 </string>
+    <string name="action_update"> 检查更新 </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="user_name">用户名</string>
+    <string name="drawer_open">Menu Opened</string>
+    <string name="drawer_close">Menu Closed</string>
+    <string name="menu_kcb">查询课表</string>
+    <string name="menu_cjb">查考试成绩</string>
+    <string name="menu_djb">查等级考试</string>
+    <string name="menu_set">设置</string>
+    <string name="menu_about">关于</string>
+
+    <string name="main_kc">今日课程</string>
+    <string name="main_no">无课课上</string>
+    <string name="main_morning">上午</string>
+    <string name="main_afternoon">下午</string>
+    <string name="main_night">晚上</string>
+
+    <string name="main_tip">温馨提示</string>
+    <string name="main_weather">注意天气</string>
+    <string name="main_wallet">及时充值</string>
+    <string name="title_activity_course">CourseActivity</string>
+    <string name="title_activity_grade">GradeActivity</string>
+    <string name="title_activity_re_grade">ReGradeActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+</resources>

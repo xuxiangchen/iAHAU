@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pick_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <net.peacesky.iahau.view.PickerView
+            android:id="@+id/year_pv"
+            android:layout_width="180dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:id="@+id/year_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/year_pv"
+            android:layout_toRightOf="@id/year_pv"
+            android:text="学年"
+            android:textColor="#ffaa33"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <net.peacesky.iahau.view.PickerView
+            android:id="@+id/semester_pv"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_toEndOf="@id/year_tv"
+            android:layout_toRightOf="@id/year_tv" />
+
+        <TextView
+            android:id="@+id/semester_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/semester_pv"
+            android:layout_toRightOf="@id/semester_pv"
+            android:text="学期"
+            android:textColor="#ffaa33"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@color/primary_white">-->
+    <!--<Button-->
+    <!--android:id="@+id/getCJ"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:text="确定"-->
+    <!--android:textColor="@android:color/holo_blue_dark" />-->
+
+    <!--</RelativeLayout>-->
+
+
+</LinearLayout>
